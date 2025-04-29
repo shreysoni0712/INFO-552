@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Week 3 - Zero Waste Mixed Herb Stem Salsa Verde</title>
+    <title>Week 4 - Zero Waste Mixed Herb Stem Salsa Verde</title>
     <style>
       body {
         background-color: #f0f5f1;
@@ -12,7 +12,6 @@
         line-height: 1.6;
         padding: 30px;
       }
-
       a {
         color: #6a9eae;
         text-decoration: none;
@@ -20,7 +19,6 @@
       a:hover {
         text-decoration: underline;
       }
-
       header {
         text-align: center;
         margin-bottom: 20px;
@@ -37,7 +35,29 @@
         color: #8ba370;
         margin: 0;
       }
-
+      nav {
+        margin: 20px 0;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+      }
+      nav ul li {
+        margin: 0 15px;
+      }
+      nav ul li a {
+        display: block;
+        padding: 8px 12px;
+        border-radius: 4px;
+        font-weight: bold;
+        color: #6a9eae;
+      }
+      nav ul li a:hover {
+        background-color: #ebf3ea;
+      }
       section {
         background: #ffffff;
         padding: 20px;
@@ -45,8 +65,6 @@
         border: 1px solid #8ba370;
         border-radius: 5px;
       }
-
-      /* Zero Waste Cookbook section */
       .zero-waste-cookbook h2,
       .recipe h2 {
         color: #4a6a56;
@@ -54,7 +72,6 @@
         border-bottom: 1px dashed #8ba370;
         padding-bottom: 5px;
       }
-
       blockquote {
         font-style: italic;
         color: #2e382e;
@@ -63,18 +80,15 @@
         padding-left: 15px;
         background-color: #ebf3ea;
       }
-
       .recipe-info {
         margin: 10px 0;
         font-weight: bold;
       }
-
       h3 {
         margin-top: 15px;
         margin-bottom: 10px;
         color: #4a6a56;
       }
-
       ul,
       ol {
         margin-left: 20px;
@@ -83,7 +97,6 @@
       ol li {
         margin-bottom: 8px;
       }
-
       footer {
         text-align: center;
         font-size: 0.8rem;
@@ -106,8 +119,15 @@
         >
       </p>
     </header>
-
-    <section class="introduction">
+    <nav>
+      <ul>
+        <li><a href="#appetizers">Appetizers</a></li>
+        <li><a href="#main-courses">Main Courses</a></li>
+        <li><a href="#desserts">Desserts</a></li>
+        <li><a href="#beverages">Beverages</a></li>
+      </ul>
+    </nav>
+    <section id="appetizers">
       <p>
         Did you know about 35-50% of all food produced is wasted? That's just
         sad. But did you know much of what you toss into your kitchen's compost
@@ -116,9 +136,6 @@
         curb my own family's wastefulness I turned to authors Giovanna Torrico
         and Amelia Wasiliev for some zero waste culinary inspiration.
       </p>
-    </section>
-
-    <section class="zero-waste-cookbook">
       <h2>Zero Waste Cookbook</h2>
       <p>
         In their new book
@@ -166,8 +183,7 @@
         Are you ready to go from waste to wow?
       </p>
     </section>
-
-    <section class="recipe">
+    <section id="main-courses" class="recipe">
       <h2>Mixed Herb Stem Salsa Verde</h2>
       <blockquote>
         "Salsa Verde is great served with meat, fish or roasted vegetables. You
@@ -175,17 +191,16 @@
         and Wasiliev
       </blockquote>
       <p class="recipe-info">
-        <strong>Makes:</strong> 125 ml (4 fl oz/&nbsp;&frac12;&nbsp;cups)
-        &nbsp;|&nbsp; <strong>Prep:</strong> 15 mins &nbsp;|&nbsp;
-        <strong>Rest:</strong> 2 Hrs
+        <strong>Makes:</strong> 125 ml (4 fl oz/ &frac12; cups) &nbsp;|&nbsp;
+        <strong>Prep:</strong> 15 mins &nbsp;|&nbsp; <strong>Rest:</strong> 2
+        Hrs
       </p>
-
       <h3>Ingredients</h3>
       <ul>
         <li>30 g (1 oz) stale bread</li>
         <li>
-          100 g (3&nbsp;&frac12;&nbsp;oz) mixed soft fresh herb stems (flat-leaf
-          parsley, basil, mint)
+          100 g (3 &frac12; oz) mixed soft fresh herb stems (flat-leaf parsley,
+          basil, mint)
         </li>
         <li>1 garlic clove</li>
         <li>1 tsp white wine vinegar</li>
@@ -196,7 +211,6 @@
         </li>
         <li>Sea salt and black pepper</li>
       </ul>
-
       <h3>Method</h3>
       <ol>
         <li>Soak the bread in some warm water in a bowl.</li>
@@ -216,7 +230,12 @@
         <li>This will keep for up to a week in the fridge.</li>
       </ol>
     </section>
-
+    <section id="desserts">
+      <h2>Desserts</h2>
+    </section>
+    <section id="beverages">
+      <h2>Beverages</h2>
+    </section>
     <footer>
       <p>
         Recipe excerpted with permission from
@@ -229,7 +248,7 @@
           >Foodista</a
         >, licensed with
         <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank"
-          >Creative Commons (CC‑BY)</a
+          >Creative Commons (CC-BY)</a
         >.
       </p>
     </footer>
